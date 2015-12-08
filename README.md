@@ -11,7 +11,7 @@ Synopsis
     $ # Clone and build
     $ git clone https://github.com/adsr/dldyn.git
     $ cd dldyn
-    $ git submodule init
+    $ git submodule update --init
     $ make
     $ # Some examples...
     $ ./dldyn -m /usr/local/lib/libpng15.so -f png_get_header_version
