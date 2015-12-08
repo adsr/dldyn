@@ -1,9 +1,9 @@
 dldyn
 =====
 
-dldyn uses dyncall to invoke a function in a dynamically opened library. This
-is the worst possible way to invoke a function, but it may be helpful in some
-cases.
+dldyn uses dyncall[1] to invoke a function in a dynamically opened library.
+This is the worst possible way to invoke a function, but it may be helpful in
+some cases.
 
 Synopsis
 ========
@@ -22,3 +22,5 @@ Synopsis
       <snip>
       000001d0  68 69 66 72 6f 6d 6a 73  6f 6e 00 00 00 00 00 00  |hifromjson......|
       <snip>
+
+[1] http://www.dyncall.org/
