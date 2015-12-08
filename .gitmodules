@@ -1,0 +1,3 @@
+[submodule "dyncall"]
+	path = dyncall
+	url = https://github.com/adsr/dyncall.git
